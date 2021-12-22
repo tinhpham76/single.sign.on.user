@@ -2,18 +2,18 @@
 // `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 
+const webUrl = window.location.origin;
 export const environment = {
   production: false,
 
-  api_url: 'https://localhost:8080',
+  api_url: 'https://sso.core.api.xxx98qn.xyz',
 
-  authority: 'https://localhost:5000',
-  client_id: 'angular_user_profile',
+  authority: 'https://sso.core.api.xxx98qn.xyz',
   redirect_uri: 'http://localhost:4300/auth-callback',
   post_logout_redirect_uri: 'http://localhost:4300/',
-  scope: 'USER_API AUTH_SERVER openid profile',
-  silent_redirect_uri: 'http://localhost:4300/silent-refresh.html',
   response_type: 'code',
+  scope: 'sso.api openid profile',
+  silent_redirect_uri: 'http://localhost:4300/silent-renew.html',
   filterProtocolClaims: true,
   loadUserInfo: true,
   automaticSilentRenew: true,

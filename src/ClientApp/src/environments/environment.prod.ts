@@ -5,14 +5,13 @@
 export const environment = {
   production: false,
 
-  api_url: 'http://localhost:8001',
+  api_url: 'https://sso.core.api.xxx98qn.xyz',
 
-  authority: 'http://localhost:5001',
-  client_id: 'angular_user_profile',
-  redirect_uri: 'http://localhost:4300/auth-callback',
-  post_logout_redirect_uri: 'http://localhost:4300/',
-  scope: 'USER_API AUTH_SERVER openid profile',
-  silent_redirect_uri: 'http://localhost:4300/silent-renew.html',
+  authority: 'https://sso.core.api.xxx98qn.xyz',
+  redirect_uri: 'http://sso.core.user.xxx98qn.xyz/auth-callback',
+  post_logout_redirect_uri: 'http://sso.core.user.xxx98qn.xyz',
+  scope: 'sso.api openid profile',
+  silent_redirect_uri: 'http://sso.core.user.xxx98qn.xyz/silent-renew.html',
   response_type: 'code',
   filterProtocolClaims: true,
   loadUserInfo: true,
