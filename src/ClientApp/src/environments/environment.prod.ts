@@ -7,6 +7,7 @@ export const environment = {
 
   api_url: 'https://sso.core.api.xxx98qn.xyz',
 
+  client_id: "single.sign.on.client",
   authority: 'https://sso.core.api.xxx98qn.xyz',
   redirect_uri: 'http://sso.core.user.xxx98qn.xyz/auth-callback',
   post_logout_redirect_uri: 'http://sso.core.user.xxx98qn.xyz',
