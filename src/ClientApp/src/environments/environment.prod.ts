@@ -9,10 +9,10 @@ export const environment = {
 
   client_id: "single.sign.on.client",
   authority: 'https://single.sign.on.api.xxx98qn.xyz',
-  redirect_uri: 'http://ssingle.single.on.user.xxx98qn.xyz/auth-callback',
-  post_logout_redirect_uri: 'http://ssingle.single.on.user.xxx98qn.xyz',
+  redirect_uri: 'http://single.single.on.client.xxx98qn.xyz/auth-callback',
+  post_logout_redirect_uri: 'http://single.single.on.client.xxx98qn.xyz',
   scope: 'sso.api openid profile',
-  silent_redirect_uri: 'http://ssingle.single.on.user.xxx98qn.xyz/silent-renew.html',
+  silent_redirect_uri: 'http://single.single.on.client.xxx98qn.xyz/silent-renew.html',
   response_type: 'code',
   filterProtocolClaims: true,
   loadUserInfo: true,
