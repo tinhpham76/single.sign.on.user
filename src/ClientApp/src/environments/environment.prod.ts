@@ -5,10 +5,10 @@
 export const environment = {
   production: false,
 
-  api_url: 'https://single.single.on.api.xxx98qn.xyz',
+  api_url: 'https://single.sign.on.api.xxx98qn.xyz',
 
   client_id: "single.sign.on.client",
-  authority: 'https://single.single.on.api.xxx98qn.xyz',
+  authority: 'https://single.sign.on.api.xxx98qn.xyz',
   redirect_uri: 'http://ssingle.single.on.user.xxx98qn.xyz/auth-callback',
   post_logout_redirect_uri: 'http://ssingle.single.on.user.xxx98qn.xyz',
   scope: 'sso.api openid profile',
